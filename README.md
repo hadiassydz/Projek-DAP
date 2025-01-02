@@ -15,3 +15,23 @@ Link Dataset: https://www.kaggle.com/datasets/irfanasrullah/groceries
 # About Algoritma
 ### Association Rule
 Algoritma Association Rule adalah teknik dalam data mining yang digunakan untuk menemukan pola asosiasi atau hubungan antara item dalam dataset. Algoritma ini, seperti Apriori, bekerja dengan menganalisis data transaksi untuk mengidentifikasi item yang sering muncul bersama. Hasil dari analisis ini adalah aturan asosiasi yang dapat membantu dalam pengambilan keputusan, seperti rekomendasi produk dalam e-commerce. Algoritma ini umumnya melibatkan dua langkah utama: menemukan itemset yang sering muncul dan menghasilkan aturan yang kuat berdasarkan metrik seperti support, confidence, dan lift.
+
+Package yang digunakan:
+- Arules
+- ArulesViz
+
+
+# About Step
+Langkah yang dilakukan dalam proses analisis:
+
+- Import Data
+- Data Preprocessing
+- Read Transaction
+- Visualisasi Dataset
+- Algoritma Association Rule
+- Visualisasi Hasil
+
+# Hasil Analisis
+Plot menggunakan package ArulesViz:
+![](plot1.png) 
+![](plot2.png) 
