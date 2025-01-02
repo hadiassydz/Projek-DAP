@@ -32,6 +32,12 @@ Langkah yang dilakukan dalam proses analisis:
 - Visualisasi Hasil
 
 # Hasil Analisis
+Hasil dari analisis ini dijadikan plot berdasarkan nilai lift > 1,5. Dalam association rules, nilai lift memiliki arti:
+
+- Lift < 1 : A dan B muncul bersama kurang dari yang diharapkan; ada hubungan negatif.
+- Lift = 1 : A dan B muncul independen; tidak ada hubungan.
+- Lift > 1 : A dan B sering muncul bersama; ada hubungan positif.
+
 Plot menggunakan package ArulesViz:
 ![](plot1.png) 
 ![](plot2.png) 
