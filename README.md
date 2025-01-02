@@ -1,4 +1,4 @@
-# Projek-DAP
+“Pemodelan Pola Pembelian Produk pada Dataset Groceries dengan Teknik Association Rules di R Studio”
 
 # About Projek
 Projek ini menggunakan dataset dari Kaggle dan menerapkan algoritma Association Rules, khususnya Apriori, untuk menganalisis data transaksi. Analisis mencakup preprocessing data, pembuatan aturan asosiasi, dan visualisasi hasil dalam bentuk grafik dan matriks. Tujuan proyek ini adalah untuk mengidentifikasi pola asosiasi antara item dalam data transaksi.
