@@ -9,6 +9,9 @@ dap <- read.csv("C:/..../groceries.csv", header = TRUE)
 View(dap)
 ```
 
+# Output
+![](gambar/viewdata.png) 
+
 ### k
 
 
