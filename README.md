@@ -21,6 +21,16 @@ Package yang digunakan:
 - ArulesViz
 
 
+# About Languange
+RStudio adalah lingkungan pengembangan terintegrasi (IDE) untuk bahasa pemrograman R. Ini menyediakan alat yang membantu dalam analisis data, visualisasi, dan pemrograman. Fitur utama RStudio meliputi:
+
+- Editor Kode: Memudahkan penulisan dan pengeditan skrip R.
+- Konsol R: Tempat untuk menjalankan perintah R secara interaktif.
+- Visualisasi: Mendukung grafik dan plot interaktif.
+- Manajemen Proyek: Memudahkan pengorganisasian dan manajemen proyek analisis data.
+- Tools untuk Paket: Memudahkan instalasi dan penggunaan paket R.
+
+
 # About Step
 Langkah yang dilakukan dalam proses analisis:
 
