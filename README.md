@@ -9,7 +9,7 @@ Groceries Market Basket Dataset adalah kumpulan data yang mencatat transaksi bel
 
 Link Dataset: https://www.kaggle.com/datasets/irfanasrullah/groceries 
 
-![](dataset.png) 
+![](gambar/dataset.png) 
 
 
 # About Algoritma
@@ -39,5 +39,12 @@ Hasil dari analisis ini dijadikan plot berdasarkan nilai lift > 1,5. Dalam assoc
 - Lift > 1 : A dan B sering muncul bersama; ada hubungan positif.
 
 Plot menggunakan package ArulesViz:
-![](plot1.png) 
-![](plot2.png) 
+
+- Plot Berdasarkan Lift dan Support
+
+<img src="gambar/plot1.png" width="500">
+
+- Plot Berdasarkan Lift dan Confidence
+
+
+<img src="gambar/plot2.png" width="500">
