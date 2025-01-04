@@ -10,7 +10,7 @@ View(dap)
 ```
 
 #### Output
-![](../gambar/viewdata.png) 
+<img src="../gambar/viewdata.png" width="700">
 
 ## Data Preprocessing
 Pada tahap ini, kita akan menghapus kolom pertama yang hanya berisi jumlah item per barisnya, sehingga tidak dibutuhkan dalam proses analisis. Untuk mengecek apakah kolom sudah terhapus, kita menggunakan fungsi "View" seperti tadi.
@@ -47,3 +47,4 @@ View(Groceries)
 ```
 
 #### Output
+<img src="../gambar/transaction.png" width="700">
