@@ -10,7 +10,7 @@ View(dap)
 ```
 
 #### Output
-<img src="../gambar/viewdata.png" width="500">
+![](../gambar/viewdata.png)
 
 ## Data Preprocessing
 Pada tahap ini, kita akan menghapus kolom pertama yang hanya berisi jumlah item per barisnya, sehingga tidak dibutuhkan dalam proses analisis. Untuk mengecek apakah kolom sudah terhapus, kita menggunakan fungsi "View" seperti tadi.
@@ -49,7 +49,7 @@ View(Groceries)
 #### Output
 <img src="../gambar/read_transaction.png" width="500">
 
-#### Ringkasan Data
+#### Ringkasan Data Transaksi
 Nah, setelah melakukan tahap sebelumnya, sekarang kita mau liat ringkasan dari data transaksi yang kita punya.
 
 ```r
@@ -62,3 +62,13 @@ summary(Groceries)
 Dari Output ini dapat dilihat item yang memiliki frekuensi terbanyak dan jumlah distribusi per itemnya.
 
 <img src="../gambar/summary_grc.png" width="500">
+
+#### Visualisai 10 Item Frekuensi Tersebasar
+```r
+# Visualisasi Frekuensi Item
+library(arulesViz)
+itemFrequencyPlot(Groceries, topN = 10, col = "#DEB887", main = "10 Item dengan Frekuensi Tertinggi")
+```
+
+#### Output
+<img src="../gambar/freq.png" width="500">
