@@ -48,3 +48,16 @@ View(Groceries)
 
 #### Output
 <img src="../gambar/read_transaction.png" width="500">
+
+#### Ringkasan Data
+Nah, setelah melakukan tahap sebelumnya, sekarang kita mau liat ringkasan dari data transaksi yang kita punya.
+
+```r
+# Menampilkan ringkasan data transaksi
+cat("\nRingkasan Data Transaksi:\n")
+summary(Groceries)
+```
+
+#### Output
+Dari Output ini dapat dilihat item yang memiliki frekuensi terbanyak dan jumlah distribusi per itemnya.
+<img src="../gambar/summmary_grc.png" width="500">
