@@ -64,6 +64,7 @@ Dari Output ini dapat dilihat item yang memiliki frekuensi terbanyak dan jumlah 
 <img src="../gambar/summary_grc.png" width="500">
 
 #### Visualisai 10 Item Frekuensi Tersebasar
+Kalo code ini buat nampilin visualisasi dari 10 item yang frekuensinya terbesar. Buat bikin visualisasi ini, kita pake package "arulesViz".
 ```r
 # Visualisasi Frekuensi Item
 library(arulesViz)
@@ -72,3 +73,5 @@ itemFrequencyPlot(Groceries, topN = 10, col = "#DEB887", main = "10 Item dengan 
 
 #### Output
 <img src="../gambar/freq.png" width="500">
+
+Okeee, lanjut di part 2 yaa pak tutor nyaa, biar ga kepanjangan.
