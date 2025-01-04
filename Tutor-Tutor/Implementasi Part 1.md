@@ -5,7 +5,7 @@ Dataset yang sudah didownload dalam  bentuk csv akan disimpan dalam variabel "da
 "View" berfungsi untuk menampilkan data di jendela terpisah, bukan menjadi output pada console, sehingga data lebih mudah dilihat. Dengan "View" juga kita dapat melihat jumlah kolom beserta jumlah keseluruhan data.
 
 ```r
-dap <- read.csv("C:/..../groceries.csv", header = TRUE)
+dap <- read.csv("C:/.../groceries.csv", header = TRUE)
 View(dap)
 ```
 
