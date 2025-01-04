@@ -60,4 +60,5 @@ summary(Groceries)
 
 #### Output
 Dari Output ini dapat dilihat item yang memiliki frekuensi terbanyak dan jumlah distribusi per itemnya.
-<img src="../gambar/summmary_grc.png" width="500">
+
+<img src="../gambar/summary_grc.png" width="500">
