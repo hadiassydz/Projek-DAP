@@ -7,7 +7,7 @@ output: html_document
 
 ## Membaca Data
 
-Berikut adalah kode untuk membaca dan menampilkan data dari file CSV:
+Berikut adalah kode untuk membaca dan menampilkan data dari file CSV
 
 ```{r}
 dap <- read.csv("C:/Users/Karyatin S/Documents/PROJECT 2025/DAP/groceries.csv", header = TRUE)
