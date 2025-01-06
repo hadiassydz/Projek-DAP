@@ -56,5 +56,4 @@ Plot menggunakan package ArulesViz:
 
 - Plot Berdasarkan Lift dan Confidence
 
-
 <img src="gambar/plot2.png" width="500">
