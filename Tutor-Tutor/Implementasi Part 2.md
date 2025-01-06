@@ -25,7 +25,7 @@ Dari output berikut dapat dilihat jumlah rules yang dihasilkan, yaitu 171 rule b
 ## Eksperimen dengan nilai support & confidence lebih kecil
 Kita bahas kenapa milih nilai support dan confidence nya segitu?? :
 - Support = 0.005 : aturan dengan item yang jarang muncul (tapi mungkin menarik) tetap akan dipertimbangkan.
-- Confidence = 0,2 : hubungan antara LHS dan RHS cukup lemah karena confidence-nya rendah.
+- Confidence = 0.2 : hubungan antara LHS dan RHS cukup lemah karena confidence-nya rendah.
   
 ```r
 # Eksperimen dengan parameter support dan confidence yang lebih kecil
