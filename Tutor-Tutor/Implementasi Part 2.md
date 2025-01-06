@@ -40,3 +40,51 @@ inspect(experiment_rules)
 Nah, kalo dari output eksperimen ini tuh beberapa ada rule yang punya nilai lif < 1, beda sama rule sebelumnya yang cuma menghasilkan 1 rule dengan lift < 1.
 
 <img src="../gambar/eksperimen.png" width="500">
+
+## Mengambil 10 Rule Terbaik
+OKe ini step udah mau selesai, kita bahas sedikit :
+- strong_rules <- subset(...) : Memilih aturan dari association_rules yang memiliki nilai lift lebih besar dari 1.5.
+- top_rules <- head(sort(...): Mengurutkan semua aturan dalam association_rules berdasarkan nilai confidence secara menurun dan mengambil 10 aturan teratas.
+
+```r
+# Menyaring aturan dengan lift > 1.5
+strong_rules <- subset(association_rules, lift > 1.5)
+
+# Inspeksi aturan yang difilter
+cat("\nAturan dengan Lift > 1.5:\n")
+inspect(head(sort(strong_rules, by = "lift", decreasing = TRUE), 10))
+
+# Mengambil beberapa aturan terbaik berdasarkan confidence
+top_rules <- head(sort(association_rules, by = "confidence", decreasing = TRUE), 10)
+```
+
+#### Output
+<img src="../gambar/rule2.png" width="500">
+
+## Visualisasi Hasil
+Ini diaaa step akhir dari association rule kami, untuuk bisa melihat dengan visual hasil dari analisis data.
+
+```r
+# Visualisasi grouped matrix
+plot(top_rules, method = "grouped")
+
+# Visualisasi aturan dengan graph
+plot(top_rules, method = "graph", measure = "confidence", shading = "lift")
+```
+
+#### Output
+Hasil dari analisis ini dijadikan plot berdasarkan nilai lift > 1,5. Dalam association rules, nilai lift memiliki arti:
+
+- Lift < 1 : A dan B muncul bersama kurang dari yang diharapkan; ada hubungan negatif.
+- Lift = 1 : A dan B muncul independen; tidak ada hubungan.
+- Lift > 1 : A dan B sering muncul bersama; ada hubungan positif.
+
+Plot menggunakan package ArulesViz:
+
+- Plot Berdasarkan Lift dan Support
+
+<img src="../gambar/plot1.png" width="500">
+
+- Plot Berdasarkan Lift dan Confidence
+
+<img src="../gambar/plot2.png" width="500">
